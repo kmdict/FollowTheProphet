@@ -1,0 +1,41 @@
+name: alib
+dependencies:
+  - python=3.7
+  - pip
+  - setuptools
+  - pip:
+    # Jupyter
+    - ipykernel
+    - ipywidgets
+    - ipympl
+    # Coding
+    - pylint
+    - pytype
+    - flake8
+    # Scientific Computing
+    - numpy
+    - numba
+    - scipy
+    - pandas
+    - dask
+    - bottleneck
+    - scikit-learn
+    # Tensorflow GPU
+    - tensorflow-gpu>=1.15,<1.16
+    # Distributed
+    - ray
+    # IO
+    - cloudpickle
+    - dill
+    - protobuf
+    - feather-format
+    - fastparquet
+    - h5py
+    # Visualization
+    - tqdm
+    - matplotlib
+    - seaborn
+    - plotly
+    - kaleido
+    - pydotplus
+    - graphviz
